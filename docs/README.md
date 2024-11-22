@@ -1,6 +1,6 @@
 # Graph Project
 
-Graph Project is a Python project designed to work with graphs. It allows users to create directed or undirected, weighted or unweighted graphs, and supports multiple graph algorithms including BFS, DFS, Dijkstra's shortest path, Kruskal's, and Prim's algorithms. The library also includes visualization capabilities for network structures, with options to customize node and edge properties.
+Graph Project is a Python library for creating and managing graphs. It supports directed and undirected, weighted and unweighted graphs, along with algorithms like BFS, DFS, Dijkstra's shortest path, Hierholzer's, Kruskal's, and Prim's. The project also provides visualization tools with customizable node and edge properties to represent network structures effectively.
 
 ## Table of Contents
 - [Features](#features)
@@ -16,6 +16,7 @@ Graph Project is a Python project designed to work with graphs. It allows users 
     - Breadth-First Search (BFS)
     - Depth-First Search (DFS)
     - Dijkstra's Shortest Path
+    - Hierholzer's Algorithm for Eulerian Circuits
     - Kruskal's Minimum Spanning Tree
     - Prim's Minimum Spanning Tree
 - **Visualization**: Provides tools for graph visualization with options for custom colors, edge thickness, node size, and more.
