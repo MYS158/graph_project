@@ -81,7 +81,7 @@ def run():
     # Draw the graph with custom settings:
     draw_graph(
         graph=graph,
-        title="Shortest path from UAEH to DES", # Camino más corto desde UAEH a DES
+        title="Shortest path from UAEH to DES",
         node_colors=node_colors,
         edge_colors=edge_colors,
         node_size=700,
