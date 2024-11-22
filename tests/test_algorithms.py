@@ -1,6 +1,6 @@
 import unittest
 from graph import Graph
-from utils.errors import NodeNotFoundError
+from utils.errors import NodeNotFoundError, EdgeNotFoundError
 
 class TestGraph(unittest.TestCase):
 
