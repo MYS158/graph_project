@@ -1,5 +1,5 @@
 import unittest
-from graph import Edge, Graph
+from graph import Node, Edge, Graph
 from utils.errors import NodeNotFoundError, EdgeNotFoundError
 
 class TestGraph(unittest.TestCase):
