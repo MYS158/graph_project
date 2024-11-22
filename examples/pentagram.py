@@ -4,7 +4,7 @@ import math
 
 def run():
 
-    # Create an instance of an undirected graph:
+    # Create a graph:
     graph = Graph()
 
     # Define nodes:
