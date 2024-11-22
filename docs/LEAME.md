@@ -65,20 +65,56 @@ El Proyecto Graph es una biblioteca de Python para crear y gestionar grafos. Sop
 El proyecto está organizado de la siguiente manera:
 
 ```
-graph_project/
-│
-├── .venv/                   # Entorno virtual
-├── .vscode/                 # Configuración de Visual Studio Code
-├── algorithms/              # Algoritmos de grafos
-├── data/                    # Archivos de datos para cargar grafos
-├── docs/                    # Documentación
-├── examples/                # Ejemplos de uso
-├── tests/                   # Pruebas unitarias
-├── utils/                   # Funciones auxiliares
-├── config.py                # Archivo de configuración
-├── graph.py                 # Clase principal del grafo
-├── main.py                  # Punto de entrada del proyecto
-└── requirements.txt         # Dependencias necesarias
+graph_project/  
+│  
+├── .venv/                   # Entorno virtual  
+│   ├── Include/             # Encabezados C para paquetes de Python  
+│   ├── Lib/                 # Librerías de Python instaladas  
+│   ├── Scripts/             # Ejecutables, incluyendo Python y pip  
+│   ├── share/               # Archivos compartidos y datos para algunos paquetes  
+│   ├── .gitignore           # Asegura que el entorno virtual no se suba a Git  
+│   └── pyvenv.cfg           # Archivo de configuración del entorno virtual  
+│  
+├── .vscode/                 # Configuraciones de Visual Studio Code  
+│   ├── launch.json          # Configuración del depurador  
+│   └── settings.json        # Configuración personalizada del editor  
+│  
+├── algorithms/              # Algoritmos de grafos  
+│   ├── bfs.py               # Búsqueda en amplitud (Breadth-First Search)  
+│   ├── dfs.py               # Búsqueda en profundidad (Depth-First Search)  
+│   ├── dijkstra.py          # Algoritmo de Dijkstra  
+│   ├── hierholzer.py        # Algoritmo de Hierholzer  
+│   ├── kruskal.py           # Algoritmo de Kruskal  
+│   ├── prim.py              # Algoritmo de Prim  
+│   └── __init__.py          # Marca esta carpeta como un paquete de Python  
+│  
+├── data/                    # Archivos de datos para cargar grafos  
+│  
+├── docs/                    # Documentación  
+│   ├── LEAME.md             # Documentación en español  
+│   └── README.md            # Documentación principal del proyecto en inglés  
+│  
+├── examples/                # Ejemplos de uso  
+│   ├── algorithm_example.py # Ejemplo de uso de algoritmos  
+│   ├── neural_network.py    # Visualización de una red neuronal como un grafo  
+│   ├── pentagram.py         # Ejemplo gráfico con un pentagrama  
+│   └── __init__.py  
+│  
+├── tests/                   # Pruebas unitarias  
+│   ├── test_algorithms.py   # Pruebas para los algoritmos de grafos  
+│   ├── test_graph.py        # Pruebas para los métodos de grafos  
+│   └── __init__.py  
+│  
+├── utils/                   # Funciones utilitarias  
+│   ├── errors.py            # Clases de errores personalizados  
+│   ├── helpers.py           # Funciones auxiliares  
+│   ├── visualization.py     # Utilidades de visualización  
+│   └── __init__.py  
+│  
+├── config.py                # Archivo de configuración para ajustes globales  
+├── graph.py                 # Clase principal de Grafos  
+├── main.py                  # Punto de entrada del proyecto  
+└── requirements.txt         # Paquetes de Python requeridos  
 ```
 
 ## Uso
