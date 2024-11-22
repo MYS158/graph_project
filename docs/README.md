@@ -29,7 +29,7 @@ Graph Project is a Python library for creating and managing graphs. It supports 
 2. **Clone the repository**:
     Use Git to clone the repository or download it directly. If using Git, run the following command in your terminal: 
     ```bash
-    git clone https://drive.google.com/drive/folders/1jXMeYYUYiB7u1rKwhD1znut63Tdrv2k2?usp=sharing
+    git clone https://github.com/MYS158/graph_project.git
     ```
 3. **Navigate to the project directory**:
     Open your terminal or command prompt and run: 
